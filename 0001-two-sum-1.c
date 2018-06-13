@@ -17,7 +17,7 @@
  * nums[i]` in the hash table, the number has already been seen, so I can just
  * return the number's index and the current index.
  *
- * ## Time complexity
+ * ## Time Complexity
  *
  * Let `N` denote the number of elements.
  *
@@ -27,7 +27,7 @@
  * depends on the hash table implementation. Assuming the hash table operations
  * are worst-case O(N), the solution has the worst time complexity of O(N^2).
  *
- * ## Memory complexity
+ * ## Memory Complexity
  *
  * This solution allocates `N` entries for the map upfront. I could allocate on
  * the fly, but it would complicate keeping track of the entries to free. Also,

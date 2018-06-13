@@ -14,12 +14,12 @@
  * This is a straightforward solution with nested loop. The outer loop finds the
  * first index and the inner loop finds the second index.
  *
- * ## Time complexity
+ * ## Time Complexity
  *
  * Since there are `N choose 2`, `N * (N - 1) / 2`, such combinations of inputs,
  * the time complexity is O(N^2), where `N` is the number of elements.
  *
- * ## Memory complexity
+ * ## Memory Complexity
  *
  * There is no additional memory required besides the indices, so the memory
  * complexity is O(1).
