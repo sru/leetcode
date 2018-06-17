@@ -45,7 +45,6 @@ struct Entry {
     UT_hash_handle hh;
 };
 
-
 int lengthOfLongestSubstring(char* s) {
     int len_max = 0;
     int start = 0;
