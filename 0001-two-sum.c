@@ -19,9 +19,9 @@
  * Since there are `N choose 2`, `N * (N - 1) / 2`, such combinations of inputs,
  * the time complexity is O(N^2), where `N` is the number of elements.
  *
- * ## Memory Complexity
+ * ## Space Complexity
  *
- * There is no additional memory required besides the indices, so the memory
+ * There is no additional space required besides the indices, so the space
  * complexity is O(1).
  */
 int* twoSum(int* nums, int numsSize, int target) {

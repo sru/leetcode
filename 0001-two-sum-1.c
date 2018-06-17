@@ -27,12 +27,12 @@
  * depends on the hash table implementation. Assuming the hash table operations
  * are worst-case O(N), the solution has the worst time complexity of O(N^2).
  *
- * ## Memory Complexity
+ * ## Space Complexity
  *
  * This solution allocates `N` entries for the map upfront. I could allocate on
  * the fly, but it would complicate keeping track of the entries to free. Also,
  * I think allocating huge chunk of entries is better for cache locality. The
- * map will have at most `N` entries. The solution has the memory complexity of
+ * map will have at most `N` entries. The solution has the space complexity of
  * O(N).
  */
 

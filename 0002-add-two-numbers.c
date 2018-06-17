@@ -32,10 +32,10 @@
  * digits of the second integer. The solution has time complexity of O(max(N,
  * M)).
  *
- * ## Memory Complexity
+ * ## Space Complexity
  *
- * There is no additional memory used that depends on input, so the solution has
- * constant memory complexity (O(1)).
+ * There is no additional space used that depends on input, so the solution has
+ * constant space complexity (O(1)).
  */
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
