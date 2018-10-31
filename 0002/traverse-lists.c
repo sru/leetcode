@@ -1,13 +1,4 @@
 /**
- * # Problem
- *
- * You are given two __non-empty__ linked lists representing two non-negative
- * integers. The digits are stored in __reverse order__ and each of their nodes
- * contain a single digit. Add the two numbers and return it as a linked list.
- *
- * You may assume the two numbers do not contain any leading zero, except the
- * number 0 itself.
- *
  * Definition for singly-linked list:
  *
  * ```
@@ -16,26 +7,6 @@
  *     struct ListNode* next;
  * };
  * ```
- *
- * # Explanation
- *
- * Since the digits are stored in reverse order, we can go through each digits
- * and add them together, along with proper carry, to achieve addition on the
- * linked lists. The first loop goes through every digit pair on both `l1` and
- * `l2`. The second loop goes through every digits existing in one list but not
- * in the other. For such digits, we only care about digit places affected by
- * the carry; the rest remain as they are.
- *
- * ## Time Complexity
- *
- * Let `N` be the number of digits of the first integer and `M` the number of
- * digits of the second integer. The solution has time complexity of O(max(N,
- * M)).
- *
- * ## Space Complexity
- *
- * There is no additional space used that depends on input, so the solution has
- * constant space complexity (O(1)).
  */
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
