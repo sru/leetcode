@@ -1,1 +1,9 @@
 = LeetCode
+
+|===
+|# |Title |Solution
+
+|0289
+|link:https://leetcode.com/problems/game-of-life/[Game of Life]
+|link:src/0289.py[Python]
+|===
