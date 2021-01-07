@@ -15,6 +15,10 @@
 |link:https://leetcode.com/problems/find-bottom-left-tree-value/[Find Bottom Left Tree Value]
 |link:src/0513.py[Python]
 
+|1512
+|link:https://leetcode.com/problems/number-of-good-pairs/[Number of Good Pairs]
+|link:src/1512.py[Python]
+
 |1678
 |link:https://leetcode.com/problems/goal-parser-interpretation/[Goal Parser Interpretation]
 |link:src/1678.py[Python]
